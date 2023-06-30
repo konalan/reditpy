@@ -8,3 +8,4 @@ Prerequis
  - Installer les librairies praw, dotenv et  PyQt5
  - Creer un compte developpeur sur reddit
  - renseigner ses informations pki dans un fichier .env situé dans le même repertoire que le script
+ - spécifier les hashtags dans le script pour execution 
