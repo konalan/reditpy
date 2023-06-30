@@ -1,0 +1,34 @@
+Introduction
+  Reditpy est un outil de scrapping de reddit, il permet de récupérer les posts utilisateurs ainsi les
+  informations associées au compte utilisateur à partir de hashtags spécifiés. Ainsi on peut construire
+  assez rapidement une base de données non négligeable d’utilisateurs associés au hashtags
+  recherchés.
+
+Contexte et problématique
+  L’idée est de faire un outil tout en un permettant de récupérer en temps réel les posts sur des
+  thématiques d’actualités pouvant influencer la société.
+Etat actuel de l’outil
+   L'application est basée sur l'interface graphique PyQt5. Elle comporte deux fenêtres :
+  Fenêtre d’input : une fenêtre où l'utilisateur peut saisir les hashtags à rechercher.
+  Fenêtre d’output : une fenêtre qui affiche les résultats de la recherche, y compris les informations sur
+  les utilisateurs associés aux posts contenant les hashtags.
+  - Lorsque l'utilisateur saisit les hashtags et clique sur le bouton "Rechercher" dans la fenêtre
+  d’input, les résultats sont affichés dans la fenêtre d’output. Les résultats incluent les
+  informations de chaque post trouvé, les informations sur l'utilisateur qui a posté le contenu
+  et le lien Reddit vers le post.
+  - Les utilisateurs associés aux posts sont triés par popularité (karma total) et affichés en
+  conséquence.
+  - Les données d'identification pour accéder à l'API Reddit sont stockées dans un fichier .env
+  et sont chargées dans le code
+  En résumé, le code permet de rechercher des posts contenant des hashtags spécifiques sur Reddit et
+  d'afficher les résultats avec les informations utilisateur triées par popularité.
+Difficultés rencontrées
+  - Installation des librairies et dépendances pour le bon fonctionnement du script
+  - Call API reddit
+Conclusion 
+  Plusieurs améliorations peuvent être faites sur l’outil 
+  - Utiliser une interface utilisateur graphique (GUI) pour afficher les résultats de manière plus 
+  conviviale et interactive.
+  - Ajouter la possibilité d'enregistrer les résultats dans une base de données ou un fichier pour 
+  une utilisation ultérieure ou pour générer des rapports.
+  - Mise à jour des informations en temps réel sur la GU
